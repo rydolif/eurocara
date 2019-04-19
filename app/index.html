@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Поставщик складской техники №1 в России!</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="icon" href="img/favicon.ico">
+	<meta name="theme-color" content="#000">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.min.css?v=1">
+</head>
+
+<body>
+<!-- 
+	<div class="preloader">
+		<div class="pulse"></div>
+	</div> -->
+
+	<header class="header">
+		<div class="container">
+
+			<div class="header__container">
+	
+				<a href="index.html" class="header__logo">
+					<img src="img/logo.png" alt="logo" width="115" height="67">
+					<span>Экслюзивный дистрибьютор складской<br>техники JSC на территории РФ</span>
+				</a>
+
+				<div class="header__info">
+					<div class="header__email">
+						<img src="img/email.png" alt="email">
+						<a href="mailto:nk_metall@mail.ru">nk_metall@mail.ru</a>
+					</div>
+
+					<div class="header__phone">
+						<div class="header__phone_img">
+							<img src="img/phone-m.png" alt="phone">
+						</div>
+						<a href="tel:+7922777000">+7 92 2 777 000</a>
+						<span>ежедневно с 9.00 до 20.00</span>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</header>
+
+	<main class="main">
+
+		<section class="eurocara">
+			<div class="container eurocara__container">
+
+				<img class="eurocara__image" src="img/cara-2.png" alt="cara">
+
+				<div class="row">
+
+					<div class="col-xl-7">
+						<h1>Поставщик складской техники <br>№1 в России!</h1>
+					</div>
+
+				</div>
+
+				<div class="row">
+					
+					<div class="eurocara__content col-md-7">
+
+						<div class="eurocara__list">
+
+							<div class="eurocara__item">
+								<h3>Огромный склад - <br> всегда в наличии</h3>
+								<p>Более 150 единиц сладской техники постоянно в наличии.</p>
+							</div>
+
+							<div class="eurocara__item">
+								<h3>Гарантия лучшей цены</h3>
+								<p>Вы не переплачиваете мы являемся официальными представителями JAC в России.</p>
+							</div>
+
+							<div class="eurocara__item">
+								<h3>Авторизованный <br>сервис в вашем регионе</h3>
+								<p>Более 150 единиц складской техники постоянно в наличии.</p>
+							</div>
+
+							<div class="eurocara__item">
+								<h3>Гарантия лучшей цены</h3>
+								<p>Вы не переплачиваете мы являемся официальными представителями JAC в России.</p>
+							</div>
+
+						</div>
+
+						<div class="eurocara__btn">
+							<img src="img/pdf.png" alt="pdf" class="eurocara__pdf">
+							<a href="img/pdf.png" class="eurocara__button btn order_open">Скачать каталог</a>
+						</div>
+
+
+					</div>
+
+				</div>
+
+
+			</div>
+		</section>
+
+		<footer class="footer">
+
+			<div class="container">
+				<h2>Скачайте каталог складской техники JAC <br> <span>и получите комменческое предложение!</span></h2>
+				
+				<div class="footer__container">
+					<div class="footer__col">
+						<p>	&#169; 2019 "Еврокара-плюс". Все права <br> защищены</p>
+						<p>Сайт не является публичной офертой.</p>
+					</div>
+
+					<div class="footer__col">
+						<a href="#" download="">Политика конфиденциальности</a>
+					</div>
+
+					<div class="footer__col">
+						<p>ул. Мендилеева, 140/1, Уфа,<br>Респ. Башкортостан</p>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+
+	</main>
+
+	<!-- modal -->
+		<div class="modal" id="order">
+			<form action="sendmail.php" class="form" method="post">
+
+				<button class="close order_close" type="button">
+					<span></span>
+					<span></span>
+				</button>
+
+				<h2>Загрузите прайс-лиcт</h2>
+				<h3>ПРАЙС ЗАГРУЗИТСЯ АВТОМАТИЧЕСКИ ПОСЛЕ ЗАПОЛНЕНИЯ ДАННЫХ</h3>
+				<p class="modal__sub-title">* за номером телефона закрепляется персональный доступ к прайсу</p>
+				<input type="hidden" name="subject" value="Узнать подробнее!">
+
+				<div class="">
+					<input type="tel" name="phone" required placeholder="+7-(999)-999-99-99">
+				</div>
+				<div class="form__btn">
+					<button type="submit" class="btn" name="submit">Отправить</button>
+				</div>
+				<p><a href="#" target="_blank">Ваши данные в безопастности</a></p>
+
+			</form>
+		</div>
+
+		<div class="modal" id="thanks">
+			<button class="close thanks_close" type="button">
+				<span></span>
+				<span></span>
+			</button>
+			<h2>Спасибо за доверие!</h2>
+			<p>Мы обязательно с вами свяжемся!</p>
+		</div>
+	<!-- modal end-->
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
