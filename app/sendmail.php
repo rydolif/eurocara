@@ -8,7 +8,7 @@
 		$subject = $_POST['subject'] ? htmlspecialchars(trim($_POST['subject'])) : '';
 		$comment = isset($_POST['comment']) ? htmlspecialchars(trim($_POST['comment'])) : '';
 		$question = isset($_POST['question']) ? htmlspecialchars(trim($_POST['question'])) : '';
-		$to = 'rudolifrudolif@gmail.com';
+		$to = 'nk_metall@mail.ru';
 
 		$headers = "From: $SITE_TITLE \r\n";
 		$headers .= "Reply-To: ". $email . "\r\n";
@@ -16,7 +16,6 @@
 		$headers .= "Content-Type: text/html; charset=utf-8\r\n";
 
 		$data = '<h1>'.$subject."</h1>";
-		$data .= 'Имя: '.$name."<br>";
 		$data .= 'Телефон: '.$phone."<br>";
 
 
